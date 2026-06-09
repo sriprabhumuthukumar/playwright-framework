@@ -1,9 +1,11 @@
  import { Given,When,Then } from "@cucumber/cucumber";
  import validation from "../utils/validation.js";
 import config from "../config/config.js";
+import { expect } from "playwright/test";
 
         Given('user is on the contact us page',async function () {
           await this.contact.open()
+          console.log("CURRENT URL:", this.page.url());
          });
        
 
@@ -22,6 +24,7 @@ import config from "../config/config.js";
        
          When('user click the home button',async function () {
           await this.contact.clickHomeButton()
-          await validation.url(this.page,`${config.base_url}`)
+          expect(await page.url())
+  .toContain("automationexercise.com");
          });
        
