@@ -12,6 +12,7 @@ Given('user is on the login page',async function () {
 
        
          When('user gives valid credential',async function () {
+            console.log("CURRENT URL:", this.page.url());
           await this.login.loginSubmit()
          });
        

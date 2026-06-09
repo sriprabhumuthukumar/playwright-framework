@@ -616,3 +616,225 @@
 2026-06-09 19:46:31 [INFO] Completed Scenario: user provide details to signup
 2026-06-09 19:46:31 [INFO] Closing browser
 2026-06-09 19:46:34 [INFO] Browser closed
+2026-06-09 20:10:08 [INFO] Launching chromium browser
+2026-06-09 20:10:09 [INFO] Worker 18584 launching chromium
+2026-06-09 20:10:09 [INFO] Browser launched
+2026-06-09 20:10:09 [INFO] Starting Scenario: add product to the cart
+2026-06-09 20:10:09 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:10:09 [INFO] Creating page
+2026-06-09 20:10:09 [INFO] Page created
+2026-06-09 20:10:16 [ERROR] Failed Scenario: add product to the cart
+2026-06-09 20:10:16 [INFO] Closing browser
+2026-06-09 20:10:16 [INFO] Browser closed
+2026-06-09 20:10:25 [INFO] Launching chromium browser
+2026-06-09 20:10:25 [INFO] Worker 22472 launching chromium
+2026-06-09 20:10:25 [INFO] Browser launched
+2026-06-09 20:10:25 [INFO] Starting Scenario: add product to the cart
+2026-06-09 20:10:25 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:10:26 [INFO] Creating page
+2026-06-09 20:10:26 [INFO] Page created
+2026-06-09 20:10:32 [INFO] Product Added to cart
+2026-06-09 20:10:33 [INFO] Proceed Checkout
+2026-06-09 20:10:33 [INFO] Validating text: Mr. buyer  buy
+2026-06-09 20:10:35 [INFO] Order placed
+2026-06-09 20:10:35 [INFO] Completed Scenario: add product to the cart
+2026-06-09 20:10:35 [INFO] Closing browser
+2026-06-09 20:10:37 [INFO] Browser closed
+2026-06-09 20:11:34 [INFO] Launching chromium browser
+2026-06-09 20:11:34 [INFO] Worker 13636 launching chromium
+2026-06-09 20:11:34 [INFO] Browser launched
+2026-06-09 20:11:34 [INFO] Starting Scenario: User submit the feedback
+2026-06-09 20:11:34 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:11:35 [INFO] Creating page
+2026-06-09 20:11:35 [INFO] Page created
+2026-06-09 20:11:41 [INFO] Navigating to https://automationexercise.com/contact_us
+2026-06-09 20:11:41 [INFO] Validating element visiblility
+2026-06-09 20:11:41 [INFO] Submit Contact Us Details
+2026-06-09 20:11:42 [INFO] Validating text: Success! Your details have been submitted successfully.
+2026-06-09 20:11:42 [INFO] Return back to Home page
+2026-06-09 20:11:42 [INFO] validating url: https://automationexercise.com/
+2026-06-09 20:11:42 [INFO] Completed Scenario: User submit the feedback
+2026-06-09 20:11:42 [INFO] Closing browser
+2026-06-09 20:11:45 [INFO] Browser closed
+2026-06-09 20:12:51 [INFO] Launching chromium browser
+2026-06-09 20:12:51 [INFO] Worker 25800 launching chromium
+2026-06-09 20:12:51 [INFO] Browser launched
+2026-06-09 20:12:51 [INFO] Starting Scenario: Login with valid credential
+2026-06-09 20:12:51 [INFO] Creating page
+2026-06-09 20:12:52 [INFO] Page created
+2026-06-09 20:13:23 [INFO] Navigating to https://automationexercise.com/login
+2026-06-09 20:13:23 [INFO] Starting login process
+2026-06-09 20:13:24 [INFO] Login submitted successfully
+2026-06-09 20:13:24 [INFO] Validating text: leon
+2026-06-09 20:13:26 [INFO] User logged out successfully
+2026-06-09 20:13:26 [INFO] validating url: https://automationexercise.com/login
+2026-06-09 20:13:26 [INFO] Completed Scenario: Login with valid credential
+2026-06-09 20:13:26 [INFO] Starting Scenario: Login with invalid credential
+2026-06-09 20:13:26 [INFO] Creating page
+2026-06-09 20:13:26 [INFO] Page created
+2026-06-09 20:13:32 [INFO] Navigating to https://automationexercise.com/login
+2026-06-09 20:13:32 [INFO] Attempting login with invalid credentials
+2026-06-09 20:13:32 [INFO] Invalid login error message displayed successfully
+2026-06-09 20:13:32 [INFO] Validating text: Your email or password is incorrect!
+2026-06-09 20:13:32 [INFO] Invalid login error message verified
+2026-06-09 20:13:32 [INFO] Completed Scenario: Login with invalid credential
+2026-06-09 20:13:32 [INFO] Closing browser
+2026-06-09 20:13:35 [INFO] Browser closed
+2026-06-09 20:14:47 [INFO] Launching chromium browser
+2026-06-09 20:14:47 [INFO] Worker 22072 launching chromium
+2026-06-09 20:14:47 [INFO] Browser launched
+2026-06-09 20:14:47 [INFO] Starting Scenario: User pay and invoice download
+2026-06-09 20:14:47 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:14:47 [INFO] Creating page
+2026-06-09 20:14:47 [INFO] Page created
+2026-06-09 20:14:54 [INFO] Navigating to https://automationexercise.com/payment
+2026-06-09 20:14:54 [INFO] Adding payment Details
+2026-06-09 20:14:57 [INFO] Payment Details added Successfully
+2026-06-09 20:14:58 [INFO] Invoice Downloaded
+2026-06-09 20:14:58 [INFO] Order Completed Successfully
+2026-06-09 20:14:58 [INFO] validating url: https://automationexercise.com/
+2026-06-09 20:14:59 [INFO] Completed Scenario: User pay and invoice download
+2026-06-09 20:14:59 [INFO] Closing browser
+2026-06-09 20:15:01 [INFO] Browser closed
+2026-06-09 20:16:06 [INFO] Launching chromium browser
+2026-06-09 20:16:06 [INFO] Worker 8868 launching chromium
+2026-06-09 20:16:06 [INFO] Browser launched
+2026-06-09 20:16:06 [INFO] Starting Scenario: add product to the cart
+2026-06-09 20:16:06 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:16:07 [INFO] Creating page
+2026-06-09 20:16:07 [INFO] Page created
+2026-06-09 20:16:13 [INFO] Product Added to cart
+2026-06-09 20:16:14 [INFO] Proceed Checkout
+2026-06-09 20:16:14 [INFO] Validating text: Mr. buyer  buy
+2026-06-09 20:16:16 [INFO] Order placed
+2026-06-09 20:16:16 [INFO] Completed Scenario: add product to the cart
+2026-06-09 20:16:16 [INFO] Starting Scenario: User views all products
+2026-06-09 20:16:16 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:16:17 [INFO] Creating page
+2026-06-09 20:16:17 [INFO] Page created
+2026-06-09 20:16:29 [INFO] Navigating to https://automationexercise.com/products
+2026-06-09 20:16:29 [INFO] Validating element visiblility
+2026-06-09 20:16:29 [INFO] Validating element visiblility
+2026-06-09 20:16:29 [INFO] Completed Scenario: User views all products
+2026-06-09 20:16:29 [INFO] Closing browser
+2026-06-09 20:16:32 [INFO] Browser closed
+2026-06-09 20:16:53 [INFO] Launching chromium browser
+2026-06-09 20:16:53 [INFO] Worker 29896 launching chromium
+2026-06-09 20:16:53 [INFO] Browser launched
+2026-06-09 20:16:53 [INFO] Starting Scenario: add product to the cart
+2026-06-09 20:16:53 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:16:54 [INFO] Creating page
+2026-06-09 20:16:54 [INFO] Page created
+2026-06-09 20:17:02 [INFO] Product Added to cart
+2026-06-09 20:17:02 [INFO] Proceed Checkout
+2026-06-09 20:17:02 [INFO] Validating text: Mr. buyer  buy
+2026-06-09 20:17:04 [INFO] Order placed
+2026-06-09 20:17:04 [INFO] Completed Scenario: add product to the cart
+2026-06-09 20:17:04 [INFO] Starting Scenario: User submit the feedback
+2026-06-09 20:17:04 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:17:04 [INFO] Creating page
+2026-06-09 20:17:04 [INFO] Page created
+2026-06-09 20:17:17 [INFO] Navigating to https://automationexercise.com/contact_us
+2026-06-09 20:17:17 [INFO] Validating element visiblility
+2026-06-09 20:17:17 [INFO] Submit Contact Us Details
+2026-06-09 20:17:17 [INFO] Validating text: Success! Your details have been submitted successfully.
+2026-06-09 20:17:18 [INFO] Return back to Home page
+2026-06-09 20:17:18 [INFO] validating url: https://automationexercise.com/
+2026-06-09 20:17:18 [INFO] Completed Scenario: User submit the feedback
+2026-06-09 20:17:18 [INFO] Starting Scenario: Login with valid credential
+2026-06-09 20:17:18 [INFO] Creating page
+2026-06-09 20:17:18 [INFO] Page created
+2026-06-09 20:17:57 [INFO] Navigating to https://automationexercise.com/login
+2026-06-09 20:17:57 [INFO] Starting login process
+2026-06-09 20:18:01 [INFO] Login submitted successfully
+2026-06-09 20:18:01 [INFO] Validating text: leon
+2026-06-09 20:18:06 [INFO] User logged out successfully
+2026-06-09 20:18:06 [INFO] validating url: https://automationexercise.com/login
+2026-06-09 20:18:06 [INFO] Completed Scenario: Login with valid credential
+2026-06-09 20:18:06 [INFO] Starting Scenario: Login with invalid credential
+2026-06-09 20:18:06 [INFO] Creating page
+2026-06-09 20:18:06 [INFO] Page created
+2026-06-09 20:19:05 [INFO] Navigating to https://automationexercise.com/login
+2026-06-09 20:19:05 [INFO] Attempting login with invalid credentials
+2026-06-09 20:19:06 [INFO] Invalid login error message displayed successfully
+2026-06-09 20:19:06 [INFO] Validating text: Your email or password is incorrect!
+2026-06-09 20:19:06 [INFO] Invalid login error message verified
+2026-06-09 20:19:06 [INFO] Completed Scenario: Login with invalid credential
+2026-06-09 20:19:06 [INFO] Starting Scenario: User pay and invoice download
+2026-06-09 20:19:06 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:19:07 [INFO] Creating page
+2026-06-09 20:19:07 [INFO] Page created
+2026-06-09 20:19:17 [INFO] Navigating to https://automationexercise.com/payment
+2026-06-09 20:19:17 [INFO] Adding payment Details
+2026-06-09 20:19:19 [INFO] Payment Details added Successfully
+2026-06-09 20:19:20 [INFO] Invoice Downloaded
+2026-06-09 20:19:21 [INFO] Order Completed Successfully
+2026-06-09 20:19:21 [INFO] validating url: https://automationexercise.com/
+2026-06-09 20:19:21 [INFO] Completed Scenario: User pay and invoice download
+2026-06-09 20:19:21 [INFO] Starting Scenario: User views all products
+2026-06-09 20:19:21 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:19:21 [INFO] Creating page
+2026-06-09 20:19:21 [INFO] Page created
+2026-06-09 20:19:32 [INFO] Navigating to https://automationexercise.com/products
+2026-06-09 20:19:32 [INFO] Validating element visiblility
+2026-06-09 20:19:33 [INFO] Validating element visiblility
+2026-06-09 20:19:33 [INFO] Completed Scenario: User views all products
+2026-06-09 20:19:33 [INFO] Starting Scenario: User order the product and add to cart
+2026-06-09 20:19:33 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:19:33 [INFO] Creating page
+2026-06-09 20:19:33 [INFO] Page created
+2026-06-09 20:20:37 [INFO] Navigating to https://automationexercise.com/products
+2026-06-09 20:20:38 [INFO] Product Selected
+2026-06-09 20:20:39 [INFO] Product review submitted
+2026-06-09 20:20:39 [INFO] Product Added to cart
+2026-06-09 20:20:39 [INFO] Cart Details Showing
+2026-06-09 20:20:39 [INFO] validating url: https://automationexercise.com/view_cart
+2026-06-09 20:20:39 [INFO] Completed Scenario: User order the product and add to cart
+2026-06-09 20:20:39 [INFO] Starting Scenario: User product in the cart
+2026-06-09 20:20:39 [INFO] using storage state: auth/buyer.json
+2026-06-09 20:20:40 [INFO] Creating page
+2026-06-09 20:20:40 [INFO] Page created
+2026-06-09 20:20:49 [INFO] Navigating to https://automationexercise.com/products
+2026-06-09 20:20:49 [INFO] Validating element visiblility
+2026-06-09 20:20:49 [INFO] Completed Scenario: User product in the cart
+2026-06-09 20:20:49 [INFO] Starting Scenario: user provide details to signup
+2026-06-09 20:20:49 [INFO] Creating page
+2026-06-09 20:20:49 [INFO] Page created
+2026-06-09 20:21:00 [INFO] Navigating to https://automationexercise.com/login
+2026-06-09 20:21:00 [INFO] Submitting signup details
+2026-06-09 20:21:01 [INFO] Signup details submitted
+2026-06-09 20:21:01 [INFO] Validating text: Enter Account Information
+2026-06-09 20:21:01 [INFO] Personal details page Initialted
+2026-06-09 20:21:03 [INFO] Personal details Added
+2026-06-09 20:21:03 [INFO] Validating text: Account Created!
+2026-06-09 20:21:03 [INFO] Account Created
+2026-06-09 20:21:04 [INFO] Validating text: Account Deleted!
+2026-06-09 20:21:05 [INFO] Account Deleted
+2026-06-09 20:21:05 [INFO] validating url: https://automationexercise.com/
+2026-06-09 20:21:05 [INFO] Completed Scenario: user provide details to signup
+2026-06-09 20:21:05 [INFO] Closing browser
+2026-06-09 20:21:07 [INFO] Browser closed
+2026-06-09 20:44:28 [INFO] Launching chromium browser
+2026-06-09 20:44:28 [INFO] Worker 2860 launching chromium
+2026-06-09 20:44:28 [INFO] Browser launched
+2026-06-09 20:44:28 [INFO] Starting Scenario: Login with valid credential
+2026-06-09 20:44:28 [INFO] Creating page
+2026-06-09 20:44:29 [INFO] Page created
+2026-06-09 20:44:43 [INFO] Navigating to https://automationexercise.com/login
+2026-06-09 20:44:43 [INFO] Starting login process
+2026-06-09 20:44:44 [INFO] Login submitted successfully
+2026-06-09 20:44:44 [INFO] Validating text: leon
+2026-06-09 20:44:46 [INFO] User logged out successfully
+2026-06-09 20:44:46 [INFO] validating url: https://automationexercise.com/login
+2026-06-09 20:44:46 [INFO] Completed Scenario: Login with valid credential
+2026-06-09 20:44:46 [INFO] Starting Scenario: Login with invalid credential
+2026-06-09 20:44:46 [INFO] Creating page
+2026-06-09 20:44:46 [INFO] Page created
+2026-06-09 20:44:58 [INFO] Navigating to https://automationexercise.com/login
+2026-06-09 20:44:58 [INFO] Attempting login with invalid credentials
+2026-06-09 20:44:58 [INFO] Invalid login error message displayed successfully
+2026-06-09 20:44:58 [INFO] Validating text: Your email or password is incorrect!
+2026-06-09 20:44:58 [INFO] Invalid login error message verified
+2026-06-09 20:44:58 [INFO] Completed Scenario: Login with invalid credential
+2026-06-09 20:44:58 [INFO] Closing browser
+2026-06-09 20:45:01 [INFO] Browser closed
