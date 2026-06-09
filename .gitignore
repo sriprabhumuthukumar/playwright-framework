@@ -1,0 +1,11 @@
+node_modules/
+.env
+
+reports/
+results/
+test-results/
+downloads/
+
+playwright-report/
+allure-results/
+allure-report/

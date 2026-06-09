@@ -1,0 +1,402 @@
+{
+  "cookies": [
+    {
+      "name": "csrftoken",
+      "value": "v06uVgVSj67cwPKpLw1pmLKErcTGHyiHH9iAzqlNQ7tziik2D0bg9EL65C5t2gkj",
+      "domain": "automationexercise.com",
+      "path": "/",
+      "expires": 1811795330.28974,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUm769bdIpM9XbKqL-jU7XFn0UtcNB2GWCSIkxp9NBNttTDpegpRBpDwWP9b8aw",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1814905728.514793,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gads",
+      "value": "ID=3acb334009c43fcf:T=1780345731:RT=1780345731:S=ALNI_Mb51wegYD5HZuk1nd0BlB9mBQWMRw",
+      "domain": ".automationexercise.com",
+      "path": "/",
+      "expires": 1814041731,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gpi",
+      "value": "UID=000013aef1007364:T=1780345731:RT=1780345731:S=ALNI_MZKN84lKvdWQbHEej_TzOenj8wQBw",
+      "domain": ".automationexercise.com",
+      "path": "/",
+      "expires": 1814041731,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__eoi",
+      "value": "ID=74be60365971476f:T=1780345731:RT=1780345731:S=AA-AfjZQxdCpM0Z05NQc91CHTaSt",
+      "domain": ".automationexercise.com",
+      "path": "/",
+      "expires": 1795897731,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sessionid",
+      "value": "aivu2ys6cs7ln1kh3bl7m9hgexbkyi66",
+      "domain": "automationexercise.com",
+      "path": "/",
+      "expires": 1781555329.96265,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FCCDCF",
+      "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%2278a2f494-d316-4fd2-bda3-ee1cbb1653f8%5C%22%2C%5B1780345728%2C334000000%5D%5D%22%5D%5D%5D",
+      "domain": ".automationexercise.com",
+      "path": "/",
+      "expires": 1814041731,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APC",
+      "value": "AfxxVi57oSokk5_Mo4sA41Vrm0iDpWo_G9ENmod21k2P6QmK6z6rYg",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1795897731.26096,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://automationexercise.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "flashtalkingad1",
+      "value": "\"GUID=672675CDCF9049\"",
+      "domain": ".flashtalking.com",
+      "path": "/",
+      "expires": 1814509731.602796,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMPS",
+      "value": "5415",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1788121731.728608,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TDID",
+      "value": "54081a6b-0101-4a05-85db-e90c9dd454ad",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1811881731.893193,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cid_ca3c8f9f655847dfb259eba51ade1334",
+      "value": "1",
+      "domain": ".ctnsnet.com",
+      "path": "/",
+      "expires": 1811881731.809127,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "gid_CAESEFugrSBemKJYtRjfhrwLSRk",
+      "value": "1",
+      "domain": ".ctnsnet.com",
+      "path": "/",
+      "expires": 1811881731.809184,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TDCPM",
+      "value": "CAESFQoGZ29vZ2xlEgsI3O6q8M2JoD8QBRgFIAEoAjILCMDupZzkiaA_EAU4AQ..",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1811881731.893331,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cr",
+      "value": "1",
+      "domain": ".ladsp.com",
+      "path": "/",
+      "expires": 1780349331.896481,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&85203074-6a22-4769-835a-48b57d850c76\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1811881732.94571,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=OGST03:s=O:r=O:a=O:p=O:g=3797:u=1:x=1:i=1780345734:t=1780432134:v=2:sig=AQFCz7Vk3R_zHZreNOSCN_l-vcCxNtxe\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1780432132.945866,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "anj",
+      "value": "dTM7k!M41.D>6NRF']wIg2Hb9rjtM^!@wnfH8K6pQK`!5=E<*L5>xi_fxABP/PIl0ieo2vjFkqqdX^3`8gVRDuFyiQ%nugO%v4VB%nmb?)y]KK",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1788121732.011726,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XANDR_PANID",
+      "value": "2iDlg0zTWY-Jc88FDhhXqQ0d6YgeujojE2a_a1lm6h755rDC6Cajl9HYCKrMnsB_xtN5lugIiadq2Sf5nbNIXHBm8cI2Zo2gQBLnzKKYpT0.",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1788121732.025914,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://automationexercise.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "uuid2",
+      "value": "3809347248505440707",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1788121732.026072,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "mlcwc",
+      "value": "eyJ2ZXJzaW9uIjoxLCJwYXlsb2FkIjoiYVo0aHgyWkRIUjFRbXQyWm0rbU51NTFmbXE1WEZ0OEpYQ1h1WFJKSUxOdWVrK2wzaGJacmxDV0xVRWNKVkF2KzhjQUdBd1liNWFTSmtFaENhc1VQU1Y4ek1IK2RQQWFkZ01XYzBHdWlKNlprZXUzb1p3TWJkeTVzVUlwYkE2NmRpSkY1WFBCRU5hTldCNkRLTEE1aGxueGVmNkNGS05uSi93Q295dUdITTB6YWJvRUdkdzRaaVJNRDhpMG4xK3lqa1QxakVhMnhycnV1bjY0RVZ0Zm9NRENuU0V5MERqOXgzdlVEMS9wbGpVYzIzcDNsZWRvV1hFMU1RbW5mZWZNPSIsIm5vbmNlIjoiLzBueUxpaEJId2tXR2o2aiJ9",
+      "domain": ".moloco.com",
+      "path": "/",
+      "expires": 1811881732.036861,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DotomiTest",
+      "value": "7832754643996712733",
+      "domain": ".dotomi.com",
+      "path": "/",
+      "expires": 1780345762.059632,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMID",
+      "value": "ah3rhm4sB8oAKDmaC9er7gAA",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1811881732.135708,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMPRO",
+      "value": "5926",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1788121732.135831,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANON_ID",
+      "value": "aSnoeUN3IdqSIdwDVj9JgrNEMETVqu8VZbXZanPJAv",
+      "domain": ".tribalfusion.com",
+      "path": "/",
+      "expires": 1788121731.147629,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "smn_uid",
+      "value": "hVPKgH2GXfiUJbjKrlFnkSlEsRKN1OI",
+      "domain": ".ladsp.com",
+      "path": "/",
+      "expires": 1814905732.187019,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lum",
+      "value": "CLKPgKfoMxIFCAEQqAE",
+      "domain": ".ladsp.com",
+      "path": "/",
+      "expires": 1814905732.187131,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uid",
+      "value": "AZ6E4Ae43KB8Ibmi7Pc",
+      "domain": ".adtdp.com",
+      "path": "/",
+      "expires": 1814905732.196746,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dynid",
+      "value": "AZ6E4Ae43KB8Ibmi7Pc",
+      "domain": ".adtdp.com",
+      "path": "/",
+      "expires": 1814905732.196862,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uid",
+      "value": "obcHvWrIGyvoMooJsUgsTqJhd-A",
+      "domain": ".fout.jp",
+      "path": "/",
+      "expires": 1814905732.257757,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "gid",
+      "value": "74886146cfd9079412977fe34a9b94ab",
+      "domain": ".gsspat.jp",
+      "path": "/",
+      "expires": 1814905732.305399,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bito",
+      "value": "ACRb1k7UO9cAAAEeD4w_cQ",
+      "domain": ".bidr.io",
+      "path": "/",
+      "expires": 1814459332.365177,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bitoIsSecure",
+      "value": "ok",
+      "domain": ".bidr.io",
+      "path": "/",
+      "expires": 1814459332.365279,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "FCNEC",
+      "value": "%5B%5B%22AKsRol_-3gxHD1pBp-kiZ2rmozdHxzuYLuiz3J7PiZEMP9Imi5hb2P2TJnEZD8fZDnnsaMwOf29rAZFAyGxvVVSdQWC3u8UFWZdChUc6GvfTcc4DO8vww7HweP1dHz-bdlzabmff6ix-yDRvYwy6z0-KMMDi1dliKw%3D%3D%22%5D%5D",
+      "domain": ".automationexercise.com",
+      "path": "/",
+      "expires": 1811881732,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "x",
+      "value": "6a1deb871da6c6338baf898a",
+      "domain": ".advolve.io",
+      "path": "/",
+      "expires": 1811881732.622899,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "obuid",
+      "value": "4956f125-b4fe-49f1-b088-93c6594f3abc",
+      "domain": ".outbrain.com",
+      "path": "/",
+      "expires": 1788121732.913052,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_D9J",
+      "value": "90c9d80f84e747a6bb6217a0403a06e1",
+      "domain": ".flashtalking.com",
+      "path": "/",
+      "expires": 1811881733.111235,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://automationexercise.com",
+      "localStorage": [
+        {
+          "name": "google_adsense_settings",
+          "value": "{\"ca-pub-1677597403311019\":[\"ca-pub-1677597403311019\"]}"
+        },
+        {
+          "name": "google_ama_config",
+          "value": "[[[[null,0,null,[],null,null,\"DIV#slider-carousel\"],4,[\"10px\",\"10px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.footer-widget>DIV.container>DIV.row\"],4,[\"10px\",\"10px\",0],[3],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV#accordian\"],4,[\"10px\",\"35px\",0],[0],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.footer-bottom\"],4,[\"10px\",\"10px\",0],[5],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY\"],2,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#form\"],4,[\"10px\",\"185px\",1],[3],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.footer-bottom\"],3,[\"10px\",\"10px\",0],[5],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.footer-widget\"],1,[\"10px\",\"10px\",0],[3],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"BODY>SECTION>DIV.container>DIV.row\"],4,[\"10px\",\"10px\",0],[3],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV#accordian>DIV.panel.panel-default>DIV.panel-heading>.panel-title\"],1,[\"10px\",\"30px\",1],[0],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"DIV#accordian>DIV.panel.panel-default>DIV.panel-heading>.panel-title\"],1,[\"10px\",\"10px\",0],[0],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY>SECTION>DIV.container>DIV.row>DIV\"],3,[\"10px\",\"10px\",0],[0],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.footer-bottom\"],2,[\"10px\",\"10px\",0],[5],null,[],[],1,[],[]],[[null,2,null,[],null,null,\"DIV#accordian>DIV.panel.panel-default>DIV.panel-heading>.panel-title\"],1,[\"10px\",\"10px\",0],[0],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"BODY>SECTION>DIV.container\"],4,[\"10px\",\"10px\",0],[3],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY\"],3,[\"10px\",\"10px\",1],[5],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY>FOOTER#footer\"],1,[\"10px\",\"10px\",0],[0],null,[],[],1,[],[2,4]]],[],[1780432130741],\"20260527_103523\",[],[[[[null,0,null,[],null,null,\"DIV#slider-carousel>DIV.carousel-inner>DIV.item.active.left>DIV\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H1,H2,P\"]]]],[[null,[1,3,2,5],null,\"4334590153\",[],[],[0,2],null,null,[1,null,2,16,480,1],[]]],[null,[[1,\"1vp\",[[4,\"2vp\",\"2vp\"],[6,\"3vp\",\"3vp\"]],8,\"1vp\",0.30000001,[\"0.2vp\",\"0vp\",2]],[2,\"300px\",[[4,\"600px\",\"600px\"],[6,\"900px\",\"900px\"]],8,\"300px\",0.30000001,[\"60px\",\"0px\",2]]]],null,null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,null,0],null,null,[1,null,null,[]],null,[1071074551],null,null,[1780306917154],null,null,null,null,null,null,null,null,null,[[\"Toggle toolbar expansion\",\"Toggle privacy and legal settings display\",\"Dismiss privacy and legal settings display\"]]]"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::h",
+          "value": "1780345732246"
+        }
+      ]
+    }
+  ]
+}
