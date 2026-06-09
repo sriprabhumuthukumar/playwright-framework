@@ -3,6 +3,7 @@ import validation from "../utils/validation.js"
 
 Given('user is on the cart page', async function () {
      await this.cart.open()
+     console.log("CURRENT URL:", this.page.url());
 })
  
 
