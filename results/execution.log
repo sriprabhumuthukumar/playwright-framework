@@ -838,3 +838,31 @@
 2026-06-09 20:44:58 [INFO] Completed Scenario: Login with invalid credential
 2026-06-09 20:44:58 [INFO] Closing browser
 2026-06-09 20:45:01 [INFO] Browser closed
+2026-06-09 21:11:26 [INFO] Launching chromium browser
+2026-06-09 21:11:26 [INFO] Worker 14056 launching chromium
+2026-06-09 21:11:26 [INFO] Browser launched
+2026-06-09 21:11:26 [INFO] Starting Scenario: add product to the cart
+2026-06-09 21:11:26 [INFO] using storage state: auth/buyer.json
+2026-06-09 21:11:26 [INFO] Creating page
+2026-06-09 21:11:26 [INFO] Page created
+2026-06-09 21:11:52 [INFO] Product Added to cart
+2026-06-09 21:11:53 [INFO] Proceed Checkout
+2026-06-09 21:11:53 [INFO] Validating text: Mr. buyer  buy
+2026-06-09 21:11:57 [INFO] Order placed
+2026-06-09 21:11:57 [INFO] Completed Scenario: add product to the cart
+2026-06-09 21:11:57 [INFO] Closing browser
+2026-06-09 21:12:00 [INFO] Browser closed
+2026-06-09 21:12:37 [INFO] Launching chromium browser
+2026-06-09 21:12:37 [INFO] Worker 17712 launching chromium
+2026-06-09 21:12:37 [INFO] Browser launched
+2026-06-09 21:12:37 [INFO] Starting Scenario: add product to the cart
+2026-06-09 21:12:37 [INFO] using storage state: auth/buyer.json
+2026-06-09 21:12:38 [INFO] Creating page
+2026-06-09 21:12:38 [INFO] Page created
+2026-06-09 21:13:21 [INFO] Product Added to cart
+2026-06-09 21:13:22 [INFO] Proceed Checkout
+2026-06-09 21:13:22 [INFO] Validating text: Mr. buyer  buy
+2026-06-09 21:13:23 [INFO] Order placed
+2026-06-09 21:13:23 [INFO] Completed Scenario: add product to the cart
+2026-06-09 21:13:23 [INFO] Closing browser
+2026-06-09 21:13:26 [INFO] Browser closed
