@@ -17,6 +17,7 @@ class Validation{
         await expect(page).toHaveURL(expectedUrl)
     }
 
+
    
  }
 

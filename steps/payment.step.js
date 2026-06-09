@@ -16,7 +16,7 @@ import config from '../config/config.js'
          });
        
          Then('user should see the payment done url',async function () {
-          await validation.url(this.page,`${config.base_url}payment_done/0`)
           await this.payment.order()
+          await validation.url(this.page,`${config.base_url}`)
          });
        

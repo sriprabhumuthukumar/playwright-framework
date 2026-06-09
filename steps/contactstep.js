@@ -22,6 +22,6 @@ import config from "../config/config.js";
        
          When('user click the home button',async function () {
           await this.contact.clickHomeButton()
-          await validation.url(this.page, `${config.base_url}`)
+          await validation.url(this.page,`${config.base_url}`)
          });
        
