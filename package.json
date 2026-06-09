@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "cucumber-js --require steps/*.js --require hooks/*.js  --format progress --format json:reports/report.json",
+    "test": "cucumber-js features/**/*.feature --require-module dotenv/config --require hooks/**/*.js --require steps/**/*.js",
+    
     "login": "cucumber-js features/login.feature --require steps/*.js --require hooks/*.js --tags @login --format progress --format json:reports/report.json",
     "signup": "cucumber-js features/signup.feature --require steps/*.js --require hooks/*.js --tags @signup --format progress --format json:reports/report.json",
     "product": "cucumber-js features/product.feature --require steps/*.js --require hooks/*.js --tags @product --format progress --format json:reports/report.json",
