@@ -4,9 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "cucumber-js features/**/*.feature --require-module dotenv/config --require hooks/**/*.js --require steps/**/*.js --format allure-cucumberjs/reporter",
-    "login": "cucumber-js features/login.feature --require steps/*.js --require hooks/*.js --tags @login --format progress --format json:reports/report.json",
-    "signup": "cucumber-js features/signup.feature --require steps/*.js --require hooks/*.js --tags @signup --format progress --format json:reports/report.json",
+"test": "cucumber-js features/**/*.feature --require-module dotenv/config --require hooks/**/*.js --require steps/**/*.js --format allure-cucumberjs/reporter",    
+"signup": "cucumber-js features/signup.feature --require steps/*.js --require hooks/*.js --tags @signup --format progress --format json:reports/report.json",
     "product": "cucumber-js features/product.feature --require steps/*.js --require hooks/*.js --tags @product --format progress --format json:reports/report.json",
     "cart": "cucumber-js features/cart.feature --require steps/*.js --require hooks/*.js --tags @cart --format progress --format json:reports/report.json",
     "payment": "cucumber-js features/payment.feature --require steps/*.js --require hooks/*.js --tags @payment --format progress --format allure-cucumberjs/reporter",
