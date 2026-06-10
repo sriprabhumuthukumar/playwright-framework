@@ -9,10 +9,10 @@ import Productpage from "../pages/productpage.js";
 import Cartpage from "../pages/cartpage.js";
 import Paymentpage from "../pages/paymentpage.js";
 import Contactpage from "../pages/contactpage.js";
-
+import fs from 'fs'
 import paymentData from "../data/payment.js";
 import userData from "../data/userdata.js";
-
+import * as allure from "allure-js-commons";
 import config from "../config/config.js";
 import logger from "../utils/logger.js";
 
@@ -87,6 +87,22 @@ console.log("Scenario Tags:", tags);
 });
 
 After(async function (scenario) {
+
+     if (scenario.result.status === "FAILED") {
+    const screenshot = await this.page.screenshot();
+
+    fs.mkdirSync("reports/screenshots", { recursive: true });
+
+    const fileName = `reports/screenshots/${Date.now()}.png`;
+
+    fs.writeFileSync(fileName, screenshot);
+
+     await allure.attachment(
+    "Failure Screenshot",
+    screenshot,
+    "image/png"
+  );
+  }
 
     try {
 
