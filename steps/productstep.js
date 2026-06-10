@@ -39,7 +39,7 @@ import config from "../config/config.js";
        
          Then('user should see the cart page',async function () {
           await this.product.viewCart()
-          await validation.url(this.page,`${config.base_url}view_car`)
+          await validation.url(this.page,`${config.base_url}view_cart`)
          });
        
 

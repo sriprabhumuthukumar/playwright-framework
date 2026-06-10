@@ -1,0 +1,60 @@
+pipeline {
+    agent any
+
+    tools {
+        nodejs 'NodeJS'   // configure in Jenkins global tools
+    }
+
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                bat 'npm install'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                bat '''
+                npx cucumber-js features/**/*.feature ^
+                --require-module dotenv/config ^
+                --require hooks/**/*.js ^
+                --require steps/**/*.js ^
+                --format allure-cucumberjs/reporter ^
+                --parallel 2
+                '''
+            }
+        }
+
+        stage('Generate Report') {
+            steps {
+                bat 'allure generate allure-results --clean -o allure-report'
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
+        }
+
+        failure {
+            echo '❌ Build failed — check logs or screenshots'
+        }
+
+        success {
+            echo '✅ Build successful'
+        }
+    }
+}

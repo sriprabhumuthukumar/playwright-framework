@@ -88,21 +88,29 @@ console.log("Scenario Tags:", tags);
 
 After(async function (scenario) {
 
-     if (scenario.result.status === "FAILED") {
-    const screenshot = await this.page.screenshot();
+     After(async function (scenario) {
+  if (scenario.result.status === Status.FAILED) {
 
-    fs.mkdirSync("reports/screenshots", { recursive: true });
+    console.log("FAILED SCENARIO:", scenario.pickle.name);
 
-    const fileName = `reports/screenshots/${Date.now()}.png`;
+    console.log("REASON:");
+    console.log(scenario.result.message || "No message available");
 
-    fs.writeFileSync(fileName, screenshot);
+    if (this.page) {
+      const screenshot = await this.page.screenshot();
+      fs.mkdirSync("reports/screenshots", { recursive: true });
 
-     await allure.attachment(
-    "Failure Screenshot",
-    screenshot,
-    "image/png"
-  );
+      const fileName = `reports/screenshots/${Date.now()}.png`;
+      fs.writeFileSync(fileName, screenshot);
+    }
   }
+});
+
+   //  await allure.attachment(
+  //  "Failure Screenshot",
+  //  screenshot,
+   // "image/png"
+  //);
 
     try {
 
