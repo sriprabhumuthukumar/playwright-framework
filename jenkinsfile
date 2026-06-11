@@ -1,15 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs 'NodeJS'   // configure in Jenkins global tools
-    }
-
-    options {
-        timestamps()
-        disableConcurrentBuilds()
-    }
-
     stages {
 
         stage('Checkout') {
@@ -18,43 +9,39 @@ pipeline {
             }
         }
 
+        stage('Clean Results') {
+            steps {
+                bat '''
+                if exist allure-results rmdir /s /q allure-results
+                mkdir allure-results
+                '''
+            }
+        }
+
         stage('Install Dependencies') {
             steps {
-                bat 'npm install'
+                bat 'npm ci'
+            }
+        }
+
+        stage('Install Browsers') {
+            steps {
+                bat 'npx playwright install --with-deps'
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat '''
-                npx cucumber-js features/**/*.feature ^
-                --require-module dotenv/config ^
-                --require hooks/**/*.js ^
-                --require steps/**/*.js ^
-                --format allure-cucumberjs/reporter ^
-                --parallel 2
-                '''
-            }
-        }
-
-        stage('Generate Report') {
-            steps {
-                bat 'allure generate allure-results --clean -o allure-report'
+                bat 'npm test'
             }
         }
     }
 
     post {
         always {
-            archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
-        }
-
-        failure {
-            echo '❌ Build failed — check logs or screenshots'
-        }
-
-        success {
-            echo '✅ Build successful'
+            allure([
+                results: [[path: 'allure-results']]
+            ])
         }
     }
 }
